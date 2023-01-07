@@ -2,6 +2,9 @@
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+section{
+    margin-top: 130px;
+}
 
 .header {
     background: #FFF8F3;
@@ -83,17 +86,17 @@ main {
 
 /* about section styles */
 .about {
-    margin-top: 130px;
-    background: #d88d57;
+                               /* margin-top: 130px; */
+    background: #fdc8a2;
     border-radius: 10px;
-    /* padding: 130px 150px;   হচ্ছে না background কালার তাই অফ */
+    padding: 130px 150px;
 
 
 }
 
 .section-title {
-    
-    margin-bottom: 30px;
+
+    margin-bottom: 50px;
     font-size: 35px;
 }
 
@@ -102,16 +105,51 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.info-title{
+
+.info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-size: 20px;
     color: #474747;
     font-weight: 700;
 }
+
+/* what i do styles */
+.what-i-do {
+                                /* margin-top: 130px; */
+    margin-bottom: 300px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* Resume styles */
